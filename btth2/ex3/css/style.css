@@ -1,0 +1,56 @@
+.container {
+    border: 3px solid aqua;
+    padding: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.left_body {
+    flex: 1;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.content {
+    color: gray;
+}
+.title {
+    font-size: 18px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.position {
+    color: aqua;
+}
+
+.right_body {
+    flex: 2;
+}
+
+.rcontent1 {
+    color: gray;
+    margin-bottom: 20px;
+}
+.rcontent2 {
+    margin-bottom: 20px;
+}
+.rcontent3 {
+    color: gray;
+    margin-bottom: 20px;
+}
